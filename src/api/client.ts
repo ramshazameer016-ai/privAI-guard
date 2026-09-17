@@ -43,7 +43,7 @@ export async function runMockScanPipeline(
   onStageUpdate('detecting', 'active');
 
   const response = await fetch(
-    'http://127.0.0.1:8000/api/chat',
+    'https://privai-guard-api.onrender.com/api/chat',
     {
       method: 'POST',
       headers: {
@@ -265,7 +265,7 @@ export async function runMockScanPipeline(
  */
 export async function fetchDashboardMetrics(): Promise<DashboardMetrics> {
   const summaryResponse = await fetch(
-    'http://127.0.0.1:8000/api/dashboard/summary'
+    'https://privai-guard-api.onrender.com/api/dashboard/summary'
   );
 
   if (!summaryResponse.ok) {
@@ -278,7 +278,7 @@ export async function fetchDashboardMetrics(): Promise<DashboardMetrics> {
     await summaryResponse.json();
 
   const historyResponse = await fetch(
-    'http://127.0.0.1:8000/api/dashboard/history'
+    'https://privai-guard-api.onrender.com/api/dashboard/history'
   );
 
   if (!historyResponse.ok) {
