@@ -1,5 +1,5 @@
 # PrivAI Guard — AI Privacy Gateway
-
+[🌐 Live Demo](https://privai-guard.onrender.com)
 > A privacy-focused middleware layer that detects sensitive information in user prompts, applies security policies, redacts protected data before external AI processing, validates the AI response, and safely rehydrates the protected information locally.
 
 ## Demo Notice
