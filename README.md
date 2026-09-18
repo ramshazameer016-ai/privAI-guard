@@ -109,7 +109,9 @@ Final Response
 ````
 
 ---
+## Architecture
 
+![PrivAI Guard Architecture](architecture.png)
 ## How It Works
 
 ### 1. Prompt Input
