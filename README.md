@@ -386,6 +386,13 @@ Rehydrating...
 ```
 
 The Secure Chat screen provides a visual demonstration of the complete privacy-gateway flow.
+### Secure Chat — Sensitive Data Detection
+
+![Sensitive data detection](screenshots/01-sensitive-detection.png.jpeg)
+
+### Secure Chat — Response Rehydration
+
+![Response rehydration](screenshots/02-response-rehydration.png.jpeg)
 
 ---
 
@@ -402,6 +409,7 @@ The dashboard provides privacy-safe audit information such as:
 * Recent scan history
 
 The dashboard does not intentionally display raw sensitive prompt contents.
+![Security Dashboard](screenshots/03-security-dashboard.png.jpeg)
 
 ---
 
@@ -412,6 +420,7 @@ The Company Policies screen provides controls for configuring policy-related inf
 The current frontend policy controls are primarily managed in browser/client state.
 
 Backend policy synchronization is **not yet enabled**.
+![Company Policies](screenshots/04-company-policies.png.jpeg)
 
 ---
 
